@@ -11,4 +11,8 @@ stringList2.extend([0, 10, 'Kuntal', 10.5]) #this will append the list as multip
 
 newList = ['zebra', 'tiger', 'lion']
 newList.insert(1, 'giraffe') #this will insert the element at the specified index
-# print(newList)
+newList.pop(1) #this will remove the index from the list
+newList.sort() #this will sort the the list in asc
+newList.reverse() #this will reverse the list
+newList.remove('lion') #this will find and remove the required string from the list
+print(newList)
