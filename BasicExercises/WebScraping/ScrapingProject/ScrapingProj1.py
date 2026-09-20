@@ -19,3 +19,5 @@ finalData = country_gdp.iloc[1:11,:]
 
 finalData.columns = ['Country', 'IMF-GDP']
 print(finalData)
+
+pd.to_csv
